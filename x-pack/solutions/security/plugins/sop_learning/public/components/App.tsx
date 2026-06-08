@@ -47,7 +47,7 @@ export function SopLearningApp({ core }: Props) {
   }
 
   return (
-    <div className={SOP_ROOT_CLASS}>
+    <div className={SOP_ROOT_CLASS} style={{ overflow: 'hidden' }}>
       <DesignSystemOverrides />
       <RecordingOverlay service={service} />
 
