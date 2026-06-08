@@ -913,8 +913,8 @@ function SkillPreviewModal({
               <h4>Final response</h4>
             </EuiTitle>
             <EuiSpacer size="xs" />
-            <EuiPanel paddingSize="m" hasShadow={false} style={{ background: '#07101F', borderRadius: 6, maxHeight: 260, overflow: 'auto' }}>
-              <EuiMarkdownFormat textSize="s" style={{ color: '#D5DEEC' }}>
+            <EuiPanel paddingSize="m" hasShadow={false} style={{ maxHeight: 260, overflow: 'auto' }}>
+              <EuiMarkdownFormat textSize="s" >
                 {result.final_message || '(no final message)'}
               </EuiMarkdownFormat>
             </EuiPanel>

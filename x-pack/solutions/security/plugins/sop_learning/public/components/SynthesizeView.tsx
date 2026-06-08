@@ -586,8 +586,8 @@ export function SynthesizeView({ service, preselectedIds, onSynthesized }: Props
                     id: 'skill',
                     name: 'Agent Builder Skill',
                     content: (
-                      <EuiPanel paddingSize="m" hasShadow={false} style={{ background: '#07101F', borderRadius: 6, maxHeight: 300, overflow: 'auto' }}>
-                        <EuiMarkdownFormat textSize="s" style={{ color: '#D5DEEC' }}>
+                      <EuiPanel paddingSize="m" hasShadow={false} style={{ maxHeight: 300, overflow: 'auto' }}>
+                        <EuiMarkdownFormat textSize="s" >
                           {result.skill_output ?? 'No skill output generated'}
                         </EuiMarkdownFormat>
                       </EuiPanel>

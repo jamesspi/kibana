@@ -676,9 +676,9 @@ export function DeployView({ service, refreshToken, onSopsChanged }: Props) {
                                 <EuiPanel
                                   paddingSize="m"
                                   hasShadow={false}
-                                  style={{ background: '#07101F', borderRadius: 6, maxHeight: 300, overflow: 'auto' }}
+                                  style={{ maxHeight: 300, overflow: 'auto' }}
                                 >
-                                  <EuiMarkdownFormat textSize="s" style={{ color: '#D5DEEC' }}>
+                                  <EuiMarkdownFormat textSize="s" >
                                     {selectedSop.skill_output ?? 'No skill content'}
                                   </EuiMarkdownFormat>
                                 </EuiPanel>
