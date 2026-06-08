@@ -262,6 +262,16 @@ const useSolutionSideNavItems = (
         },
         position: SolutionSideNavItemPosition.top,
       },
+      {
+        id: SecurityPageName.externalLinkSopLearning,
+        label: 'Protégé',
+        href: application.getUrlForApp('sopLearning'),
+        onClick: (e: React.MouseEvent) => {
+          e.preventDefault();
+          application.navigateToApp('sopLearning');
+        },
+        position: SolutionSideNavItemPosition.top,
+      },
     ];
 
     return [

@@ -44,6 +44,7 @@ export const getNavCategories = (
                 ? [SecurityPageName.externalLinkAgentBuilder]
                 : []),
               SecurityPageName.externalLinkWorkflows,
+              SecurityPageName.externalLinkSopLearning,
             ]
           : []),
         SecurityPageName.attackDiscovery,

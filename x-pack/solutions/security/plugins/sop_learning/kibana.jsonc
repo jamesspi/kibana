@@ -1,0 +1,31 @@
+{
+  "type": "plugin",
+  "id": "@kbn/sop-learning-plugin",
+  "owner": [
+    "@elastic/security-threat-hunting"
+  ],
+  "group": "security",
+  "visibility": "private",
+  "description": "Learn SOPs from analyst workflow recordings and generate Agent Builder Skills and Elastic Workflows",
+  "plugin": {
+    "id": "sopLearning",
+    "browser": true,
+    "server": true,
+    "configPath": [
+      "xpack",
+      "sopLearning"
+    ],
+    "requiredPlugins": [
+      "data",
+      "features",
+      "inference"
+    ],
+    "optionalPlugins": [
+      "security",
+      "spaces",
+      "agentBuilder",
+      "workflowsManagement"
+    ],
+    "requiredBundles": []
+  }
+}

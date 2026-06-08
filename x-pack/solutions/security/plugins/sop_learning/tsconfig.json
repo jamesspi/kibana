@@ -1,0 +1,31 @@
+{
+  "extends": "@kbn/tsconfig-base/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "target/types"
+  },
+  "include": [
+    "common/**/*",
+    "public/**/*",
+    "server/**/*",
+    "../../../../../typings/**/*"
+  ],
+  "kbn_references": [
+    "@kbn/core",
+    "@kbn/config-schema",
+    "@kbn/i18n",
+    "@kbn/data-plugin",
+    "@kbn/features-plugin",
+    "@kbn/navigation-plugin",
+    "@kbn/inference-plugin",
+    "@kbn/inference-common",
+    "@kbn/agent-builder-common",
+    "@kbn/agent-builder-server",
+    "@kbn/workflows-management-plugin",
+    "@kbn/agent-builder-workflow-gen",
+    "@kbn/workflows-yaml",
+    "@kbn/spaces-plugin",
+    "@kbn/spaces-utils",
+    "@kbn/charts-theme"
+  ],
+  "exclude": ["target/**/*"]
+}

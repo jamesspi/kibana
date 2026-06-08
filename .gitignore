@@ -206,3 +206,5 @@ src/platform/plugins/shared/console/packaging/react/translations
 # Agent skill working output (team-auto-tests-stats markdown only — never commit)
 .cursor/tmp/
 .agents/tmp/
+x-pack/solutions/security/plugins/sop_learning/docs/paper/*.pdf
+x-pack/solutions/security/plugins/sop_learning/docs/
