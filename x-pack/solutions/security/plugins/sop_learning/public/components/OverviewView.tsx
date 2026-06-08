@@ -771,8 +771,8 @@ export function OverviewView({ service }: { service: SopLearningService }) {
   const successColor = isDark ? '#24C292' : '#008A5E';
   const successBgColor = isDark ? '#0E2A24' : '#E9FFF7';
   const heroSurface = isDark
-    ? `linear-gradient(180deg, #16202E 0%, #0F1A28 100%)`
-    : `linear-gradient(180deg, #FFFFFF 0%, #F6F9FC 100%)`;
+    ? 'linear-gradient(180deg, #16202E 0%, #0F1A28 100%)'
+    : 'linear-gradient(180deg, #FFFFFF 0%, #F6F9FC 100%)';
   const heroGlow = isDark
     ? 'radial-gradient(120% 130% at 100% -10%, #112A45 0%, rgba(17,42,69,0) 60%)'
     : 'radial-gradient(120% 130% at 100% -10%, #F1F6FF 0%, rgba(241,246,255,0) 60%)';
@@ -946,7 +946,6 @@ export function OverviewView({ service }: { service: SopLearningService }) {
         </div>
       </div>
 
-      {/* Spacer */}
       <div style={{ height: 24 }} />
 
       {/* Activity + Quality */}
@@ -1031,7 +1030,6 @@ export function OverviewView({ service }: { service: SopLearningService }) {
         </Section>
       </div>
 
-      {/* Spacer */}
       <div style={{ height: 24 }} />
 
       {/* Distribution donuts */}
@@ -1062,7 +1060,6 @@ export function OverviewView({ service }: { service: SopLearningService }) {
         </Section>
       </div>
 
-      {/* Spacer */}
       <div style={{ height: 24 }} />
 
       {/* SOP type distribution bar */}

@@ -391,11 +391,7 @@ export function RecordingOverlay({ service }: Props) {
     </div></EuiPortal>
   );
 
-  if (!isRecording) return (
-    <EuiPortal><div style={{position:'fixed',bottom:20,right:20,zIndex:9999}}>
-      <EuiButton fill color="danger" iconType="dot" onClick={()=>setShowSetup(true)} size="s">Record workflow</EuiButton>
-    </div></EuiPortal>
-  );
+  if (!isRecording) return null;
 
   if (minimized) return (
     <EuiPortal><div style={{position:'fixed',bottom:20,right:20,zIndex:9999}}>

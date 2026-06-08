@@ -51,8 +51,8 @@ export function SopLearningApp({ core }: Props) {
       <DesignSystemOverrides />
       <RecordingOverlay service={service} />
 
-      <EuiPage paddingSize="l">
-        <EuiPageBody>
+      <EuiPage paddingSize="l" grow={false} style={{ minHeight: 'auto' }}>
+        <EuiPageBody restrictWidth>
           <EuiPageHeader
             pageTitle="Protégé"
             description="Record analyst workflows, synthesize standard procedures, and deploy as Agent Builder Skills or Elastic Workflows."
