@@ -717,7 +717,6 @@ export function DeployView({ service, refreshToken, onSopsChanged }: Props) {
                                   paddingSize="m"
                                   isCopyable
                                   overflowHeight={300}
-                                  style={{ background: '#07101F', borderRadius: 6 }}
                                 >
                                   {selectedSop.workflow_output ?? 'No workflow content'}
                                 </EuiCodeBlock>

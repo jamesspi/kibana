@@ -289,7 +289,7 @@ function StepAccordion({ step, index }: { step: SOPStep; index: number }) {
             }
           >
             <EuiSpacer size="xs" />
-            <EuiCodeBlock language="sql" fontSize="s" paddingSize="s" isCopyable overflowHeight={180} style={{ background: '#07101F', borderRadius: 6 }}>
+            <EuiCodeBlock language="esql" fontSize="s" paddingSize="s" isCopyable overflowHeight={180}>
               {step.query_template}
             </EuiCodeBlock>
           </EuiAccordion>
@@ -725,7 +725,6 @@ function GapProposalCard({
               paddingSize="s"
               isCopyable
               overflowHeight={200}
-              style={{ background: '#07101F', borderRadius: 6 }}
             >
               {p.yaml}
             </EuiCodeBlock>

@@ -91,18 +91,16 @@ const LIGHT_CSS = `
 }
 
 /* -- Code blocks ------------------------------------------------------------ */
-.sopLearningAppRoot .euiCodeBlock {
-  background: #07101F !important;
-  border-radius: 6px !important;
-}
-.sopLearningAppRoot .euiCodeBlock__pre,
-.sopLearningAppRoot .euiCodeBlock .euiCodeBlock__pre {
-  background: #07101F !important;
-}
 .sopLearningAppRoot .euiCodeBlock .euiCodeBlock__code {
-  color: #D5DEEC !important;
   font-size: 0.8125rem !important;
   line-height: 1.5 !important;
+}
+
+/* -- Page overflow fix ------------------------------------------------------ */
+.sopLearningAppRoot .euiPage {
+  min-height: auto !important;
+  height: auto !important;
+  flex-grow: 0 !important;
 }
 
 /* -- Panel borders (ensure the design-system border wins) ------------------- */
@@ -469,12 +467,7 @@ const DARK_DIRECT_CSS = `
 }
 
 /* -- Code blocks ------------------------------------------------------------ */
-.sopLearningAppRoot .euiCodeBlock {
-  background: #07101F !important;
-  border-radius: 6px !important;
-}
 .sopLearningAppRoot .euiCodeBlock .euiCodeBlock__code {
-  color: #D5DEEC !important;
   font-size: 0.8125rem !important;
   line-height: 1.5 !important;
 }

@@ -633,7 +633,7 @@ export function SynthesizeView({ service, preselectedIds, onSynthesized }: Props
                           </EuiCallOut>
                         )}
                         <EuiSpacer size="s" />
-                        <EuiCodeBlock language="yaml" fontSize="s" paddingSize="m" isCopyable style={{ background: '#07101F', borderRadius: 6 }}>
+                        <EuiCodeBlock language="yaml" fontSize="s" paddingSize="m" isCopyable>
                           {result.workflow_output ?? 'No workflow output generated'}
                         </EuiCodeBlock>
                       </>

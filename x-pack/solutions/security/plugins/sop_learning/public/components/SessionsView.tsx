@@ -330,7 +330,7 @@ export function SessionsView({ service, onSynthesizeSelected }: Props) {
                     {event.narration && <EuiText size="xs" color="success" style={{ marginLeft: euiTheme.size.l, marginTop: euiTheme.size.xs, fontStyle: 'italic' }}>&ldquo;{event.narration}&rdquo;</EuiText>}
                     {event.details && (event.details as any).query_text && (
                       <div style={{ marginLeft: euiTheme.size.l, marginTop: euiTheme.size.xs }}>
-                        <EuiCodeBlock language="sql" fontSize="s" paddingSize="s" overflowHeight={120} isCopyable style={{ background: '#07101F', borderRadius: 6 }}>
+                        <EuiCodeBlock language="esql" fontSize="s" paddingSize="s" overflowHeight={120} isCopyable>
                           {(event.details as any).query_text}
                         </EuiCodeBlock>
                       </div>
