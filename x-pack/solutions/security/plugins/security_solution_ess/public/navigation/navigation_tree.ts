@@ -47,6 +47,10 @@ export const createNavigationTree = (
         icon: 'email',
       },
       {
+        link: 'daybreak' as AppDeepLinkId,
+        icon: 'securityAnalyticsApp',
+      },
+      {
         link: 'discover',
         icon: 'productDiscover',
       },
@@ -61,6 +65,10 @@ export const createNavigationTree = (
           },
       {
         link: 'workflows',
+      },
+      {
+        link: 'sopLearning' as AppDeepLinkId,
+        icon: 'videoPlayer',
       },
       // TODO: remove this item when agentBuilderNavAtTop is enabled by default and the Agent Builder link is always at the top of the nav
       ...(showAgentBuilder && !agentBuilderNavAtTop ? [agentBuilderLink] : []),

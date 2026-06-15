@@ -1,0 +1,28 @@
+{
+  "type": "plugin",
+  "id": "@kbn/daybreak-plugin",
+  "owner": [
+    "@elastic/security-threat-hunting"
+  ],
+  "group": "security",
+  "visibility": "private",
+  "description": "Project Daybreak – Agentic SOC Watch Commander interface for managing autonomous AI workers through proposals",
+  "plugin": {
+    "id": "daybreak",
+    "browser": true,
+    "server": true,
+    "configPath": [
+      "xpack",
+      "daybreak"
+    ],
+    "requiredPlugins": [
+      "data",
+      "features"
+    ],
+    "optionalPlugins": [
+      "security",
+      "spaces"
+    ],
+    "requiredBundles": []
+  }
+}

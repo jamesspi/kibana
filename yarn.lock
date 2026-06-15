@@ -6500,6 +6500,10 @@
   version "0.0.0"
   uid ""
 
+"@kbn/daybreak-plugin@link:x-pack/solutions/security/plugins/daybreak":
+  version "0.0.0"
+  uid ""
+
 "@kbn/deeplinks-agent-builder@link:src/platform/packages/shared/deeplinks/agent_builder":
   version "0.0.0"
   uid ""
@@ -9345,6 +9349,10 @@
   uid ""
 
 "@kbn/some-dev-log@link:src/platform/packages/private/kbn-some-dev-log":
+  version "0.0.0"
+  uid ""
+
+"@kbn/sop-learning-plugin@link:x-pack/solutions/security/plugins/sop_learning":
   version "0.0.0"
   uid ""
 
