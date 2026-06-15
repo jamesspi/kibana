@@ -24,7 +24,7 @@
     "@kbn/agent-builder-workflow-gen",
     "@kbn/workflows-yaml",
     "@kbn/spaces-plugin",
-    "@kbn/spaces-utils",
+    "@kbn/core-spaces-common",
     "@kbn/charts-theme"
   ],
   "exclude": ["target/**/*"]

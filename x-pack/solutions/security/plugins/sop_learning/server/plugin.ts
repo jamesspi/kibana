@@ -14,7 +14,7 @@ import type {
   WorkflowsManagementApi,
 } from '@kbn/workflows-management-plugin/server';
 import type { SpacesPluginStart } from '@kbn/spaces-plugin/server';
-import { DEFAULT_SPACE_ID } from '@kbn/spaces-utils';
+import { DEFAULT_SPACE_ID } from '@kbn/core-spaces-common';
 import { registerRoutes } from './routes';
 import { registerSopLearningFeature } from './features';
 
